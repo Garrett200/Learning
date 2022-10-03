@@ -2,10 +2,11 @@ h1 {
     color: rgb(25, 25, 26);
 }
 
-title {
+h1 {
     width: 100%;
+    alig
     max-width: 750px;
-    height: 100px;
-    align-content: center;
+    height: 50px;
+    border: 1px solid black;
     background-color: antiquewhite;
 }

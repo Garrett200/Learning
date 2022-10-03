@@ -1,0 +1,11 @@
+h1 {
+    color: rgb(25, 25, 26);
+}
+
+div {
+    width: 100%;
+    max-width: 750px;
+    height: 100px;
+    align-content: center;
+    background-color: antiquewhite;
+}

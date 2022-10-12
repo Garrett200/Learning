@@ -31,6 +31,7 @@
 
 .content_links {
     float: left;
+    box-sizing: border-box;
     margin-top: -20px;
     margin-left: 5px;
 }
@@ -53,11 +54,13 @@
 
 .monkey {
     width: auto;
-    margin-top: 15px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    position: sticky;
+    top: 100;
 }
 
 .buttons {
@@ -67,4 +70,22 @@
 footer {
     margin-top: 50px;
     float: left;
+}
+
+@media (max-width: 992px) {
+    div {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    div {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    div {
+        font-size: 16px;
+    }
 }
